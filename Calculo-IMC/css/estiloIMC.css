@@ -1,0 +1,48 @@
+body {
+    text-align: center  ;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(8, 187, 187);
+}
+main {
+    text-align: left;
+    background-color: white;
+    height: auto;
+    width: 570px;
+    margin-left: 380px;
+    border-radius: 20px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+.calculo p {
+    padding: 10px;
+}
+.calculo .calcular {
+    padding: 5px;
+    background-color: pink;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.calculo .calcular:hover {
+    background-color: rgb(250, 150, 167);
+}
+.resultado {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color:rgb(167, 15, 15);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(92, 5, 5);
+    transition: 0.5s;
+}
+footer {
+    text-align: center;
+    color: rgb(167, 15, 15);
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloIMC.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;800&display=swap" rel="stylesheet">
+    <title>Calculo de IMC</title>
+</head>
+
+<body>
+    <h1> Calculo IMC</h1>
+    <main>
+        <div class="calculo">
+            <p>Nome:<input type="text" class="nome" id="nome"></p>
+            <p>Altura:<input type="number" class="altura" id="altura"></p>
+            <p>Peso:<input type="number" class="peso" id="peso"></p>
+            <p><input type="button" value="Calcular" onclick="calcular()" class="calcular"></p>
+        </div>
+        <div class="resultado">
+            Calculando IMC...
+        </div>
+    </main>
+    <script src="../js/calculoIMC.js"></script>
+    <footer>
+        <h2> <a href="https://www.linkedin.com/in/fabrício-guedes-de-santana-03a29a250/" target="_blank">&copy;Fafaomega&trade;</a></h2>
+    </footer>
+</body>
+
+</html>
